@@ -6,11 +6,11 @@ const Navbar = () => {
         <Nav>
             <NavbarContainer>
                 <NavLogo>
-
+                    Weather
                 </NavLogo>
                 <SearchBar />
                 <NavBtn>
-
+                    Search
                 </NavBtn> 
             </NavbarContainer>
         </Nav>

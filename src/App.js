@@ -1,14 +1,15 @@
 import './App.css';
 import React from 'react'
-import NavBar from '../src/Components/Navbar';
-import WeatherSection from './Components/WeatherSection';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from "./pages";
 
 const App = () => {
   return (
-    <div>
-      <NavBar />
-      <WeatherSection />
-    </div>
+    <Router>
+      <Switch>
+      <Route path="/" component={Home} exact />
+      </Switch>
+    </Router>
   )
 }
 
