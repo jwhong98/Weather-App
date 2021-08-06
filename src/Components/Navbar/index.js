@@ -8,7 +8,7 @@ const Navbar = () => {
                 <NavLogo>
                     Weather
                 </NavLogo>
-                <SearchBar />
+                <SearchBar name="cityName"/>
                 <NavBtn>
                     Search
                 </NavBtn> 
