@@ -1,4 +1,4 @@
-import React from 'react'
+import React , { useState, useEffect } from 'react';
 import { WeatherContainer, WeatherH1, WeatherWrap, WeatherCard, Day, WeatherImg, 
     Temperature, Precipitation } from './WeatherComponents';
 
