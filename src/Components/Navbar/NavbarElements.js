@@ -24,6 +24,10 @@ export const NavLogo = styled(Link)`
     text-decoration: none;
 `
 
+export const NavForm = styled.form`
+
+`
+
 export const SearchBar = styled.input`
 
 `
